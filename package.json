@@ -1,0 +1,14 @@
+{
+  "name": "e2e-replay-anchor-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app.mjs",
+    "record": "e2e run",
+    "replay": "e2e run --strict-cache"
+  },
+  "devDependencies": {
+    "@e2e-dev/web": "0.16.1",
+    "e2e": "0.24.0"
+  }
+}
